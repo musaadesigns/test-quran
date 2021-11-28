@@ -1,0 +1,287 @@
+// $(document).ready(function () {
+//     $('#type').change(function () {
+//         var val = $(this).val();
+//         if (val == "juz") {
+//           $("#min").html('<option value="1">Juz 1</option><option value="149">Juz 2</option><option value="260">Juz 3</option><option value="386">Juz 4</option><option value="517">Juz 5</option><option value="641">Juz 6</option><option value="751">Juz 7</option><option value="900">Juz 8</option><option value="1042">Juz 9</option><option value="1201">Juz 10</option><option value="1328">Juz 11</option><option value="1479">Juz 12</option><option value="1649">Juz 13</option><option value="1803">Juz 14</option><option value="2030">Juz 15</option><option value="2215">Juz 16</option><option value="2484">Juz 17</option> <option value="2674">Juz 18</option><option value="2876">Juz 19</option><option value="3215">Juz 20</option><option value="3386">Juz 21</option><option value="3564">Juz 22</option><option value="3733">Juz 23</option><option value="4090">Juz 24</option><option value="4265">Juz 25</option><option value="4511">Juz 26</option><option value="4706">Juz 27</option><option value="5105">Juz 28</option><option value="5242">Juz 29</option><option value="5673">Juz 30</option>');
+//
+//           $("#max").html('<option value="148">Juz 1</option><option value="259">Juz 2</option><option<option value="516">Juz 4</option><option value="640">Juz 5</option><option value="750">Juz 6</option><option value="899">Juz 7</option><option value="1041">Juz 8</option><option value="1200">Juz 9</option><option value="1327">Juz 10</option><option value="1478">Juz 11</option><option value="1648">Juz 12</option><option value="1802">Juz 13</option><option value="2029">Juz 14</option><option value="2214">Juz 15</option><option value="2483">Juz 16</option><option value="2673">Juz 17</option><option value="2875">Juz 18</option><option value="3214">Juz 19</option><option value="3385">Juz 20</option><option value="3563">Juz 21</option><option value="3732">Juz 22</option><option value="4089">Juz 23</option><option value="4264">Juz 24</option><option value="4510">Juz 25</option><option value="4705">Juz 26</option><option value="5104">Juz 27</option><option value="5241">Juz 28</option><option value="5672">Juz 29</option><option value="6236">Juz 30</option>');
+//       } else if (val == "surahs") {
+//             $("#min").html('<option value="1">Surah Al-Fatiha - سُورَةُ ٱلْفَاتِحَةِ</option><option value="8">Surah Al-Baqarah - سورة البقرة</option><option value="294">Aal-i-Imraan - سورة آل عمران</option><option value="386">Juz 4</option><option value="517">Juz 5</option><option value="641">Juz 6</option><option value="751">Juz 7</option><option value="900">Juz 8</option><option value="1042">Juz 9</option><option value="1201">Juz 10</option><option value="1328">Juz 11</option><option value="1479">Juz 12</option><option value="1649">Juz 13</option><option value="1803">Juz 14</option><option value="2030">Juz 15</option><option value="2215">Juz 16</option><option value="2484">Juz 17</option><option value="2674">Juz 18</option><option value="2876">Juz 19</option><option value="3215">Juz 20</option><option value="3386">Juz 21</option><option value="3564">Juz 22</option><option value="3733">Juz 23</option><option value="4090">Juz 24</option><option value="4265">Juz 25</option><option value="4511">Juz 26</option><option value="4706">Juz 27</option><option value="5105">Juz 28</option><option value="5242">Juz 29</option><option value="5673">Juz 30</option>');
+//
+//             $("#max").html('<option value="148">Juz 1</option><option value="259">Juz 2</option><option value="385">Juz 3</option><option value="516">Juz 4</option><option value="640">Juz 5</option><option value="750">Juz 6</option><option value="899">Juz 7</option><option value="1041">Juz 8</option><option value="1200">Juz 9</option><option value="1327">Juz 10</option><option value="1478">Juz 11</option><option value="1648">Juz 12</option><option value="1802">Juz 13</option><option value="2029">Juz 14</option><option value="2214">Juz 15</option><option value="2483">Juz 16</option><option value="2673">Juz 17</option><option value="2875">Juz 18</option><option value="3214">Juz 19</option><option value="3385">Juz 20</option><option value="3563">Juz 21</option><option value="3732">Juz 22</option><option value="4089">Juz 23</option><option value="4264">Juz 24</option><option value="4510">Juz 25</option><option value="4705">Juz 26</option><option value="5104">Juz 27</option><option value="5241">Juz 28</option><option value="5672">Juz 29</option><option value="6236">Juz 30</option>');
+//         }
+//     });
+//
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // Set DOM elements from the API
+// Verse.textContent = text;
+// Surah.textContent = surah.englishName;
+// SurahAyah.textContent = surah.number + ':' + numberInSurah;
+//
+// MoreInfoSurahName.textContent = 'Surah name: ' + surah.englishName + ' - ' + surah.name;
+// MoreInfoSurahNameTranslation.textContent = 'Surah name translation: ' + surah.englishNameTranslation;
+// MoreInfoSurahNumber.textContent = 'Surah number: ' + surah.number;
+// MoreInfoNumberOfAyahs.textContent = 'Number of ayahs in surah: ' + surah.numberOfAyahs;
+// MoreInfoRevelationType.textContent = 'Revelation type: ' + surah.revelationType;
+// MoreInfoRevelationType.textContent = 'Revelation type: ' + surah.revelationType;
+// MoreInfoVerse.textContent = text;
+// MoreInfoAyahNumber.textContent = 'Ayah number: ' + numberInSurah;
+// MoreInfoJuz.textContent = 'Juz: ' + juz;
+// MoreInfoPage.textContent = 'Page: ' + page;
+// MoreInfoManzil.textContent = 'Manzil: ' + manzil;
+// MoreInfoHizb.textContent = 'Hizb: ' + hizbQuarter;
+// MoreInfoRuku.textContent = 'Ruku: ' + ruku;
+//
+// //SAJDA AYAH
+//
+// function checkSajdaRecommended() {
+//   return sajda.recommended;
+// }
+// function checkSajdaObligatory() {
+//   return sajda.obligatory;
+// }
+//
+// console.log(checkSajdaRecommended());
+// console.log(checkSajdaObligatory());
+//
+// if (checkSajdaRecommended() === true) {
+//   MoreInfoSajda.textContent = 'This is a sajda ayah';
+//   $('.sajda-note').addClass('active');
+// } else if (checkSajdaRecommended() === false){
+//
+//     if (checkSajdaObligatory() === true) {
+//       MoreInfoSajda.textContent = 'This is a sajda ayah';
+//       $('.sajda-note').addClass('active');
+//     }
+//
+// } else {
+//   MoreInfoSajda.textContent = 'This is a not sajda ayah';
+//   $('.sajda-note').removeClass('active');
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $(".dropdown2-menu").html('<li value="' + data.data.surahs[0].ayahs[0].number + '">' + data.data.surahs[0].englishName + ' - ' + data.data.surahs[0].name + '</li><li value="' + data.data.surahs[1].ayahs[0].number + '">' + data.data.surahs[1].englishName + ' - ' + data.data.surahs[1].name + '</li><li value="' + surahs[2].ayahs[0].number + '">' + surahs[2].englishName + ' - ' + surahs[2].name + '</li>');
+
+//                 <li value="790">Al-An'aam - سورة الأنعا</li><li value="955">Al-A'raaf - سورة الأعراف</li><li value="1161">Al-Anfaal - سورة الأنفال</li><li value="1236">At-Tawba - سورة التوبة</li><li value="1365">Yunus - سورة يونس</li><li value="1474">Hud - سورة هود</li><li value="1597">Yusuf - سورة يوسف</li><li value="1708">Ar-Ra'd - سورة الرعد</li><li value="1751">Ibrahim - سورة ابراهيم</li><li value="1803">Al-Hijr - سورة الحج</li><li value="1902">An-Nahl - سورة النحل</li><li value="2030">Al-Israa - سورة الإسراء</li><li value="2141">Al-Kahf - سورة الكهف</li><li value="2251">Maryam - سورة مريم</li><li value="2349">Taa-Haa - سورة طه</li><li value="2484">Al-Anbiyaa - سورة الأنبياء</li><li value="2596">Al-Hajj - سورة الحج</li><li value="2674">Al-Muminoon - سورة المؤمنون</li><li value="2792">An-Noor - سورة النور</li><li value="2856">Al-Furqaan - سورة الفرقان</li><li value="2933">Ash-Shu'araa - سورة الشعراء</li><li value="3160">An-Naml - سورة النمل</li><li value="3253">Al-Qasas - سورة القصص</li><li value="3341">Al-Ankaboot - سورة العنكبوت</li><li value="3410">Ar-Room - سورة الروم</li><li value="3470">Luqman - سورة لقمان</li><li value="3504">As-Sajda - سورة السجدة</li><li value="3534">Al-Ahzaab - سورة الأحزاب</li><li value="3607">Saba - سورة سَبَأ</li><li value="3661">Faatir - سورة فاطر</li><li value="3706">Yaseen - سورة يس</li><li value="3789">As-Saaffaat - سورة الصافات</li><li value="3971">Saad - سورة ص</li><li value="4059">Az-Zumar - سورة الزمر</li><li value="4134">Ghafir - سورة غافر</li><li value="4219">Fussilat - سورة فصلت</li><li value="4273">Ash-Shura - سورة الشورى</li><li value="4326">Az-Zukhruf - سورة الزخرف</li><li value="4415">Ad-Dukhaan - سورة الدخان</li><li value="4474">Al-Jaathiya - سورة الجاثية</li><li value="4511">Al-Ahqaf - سورة الأحقاف</li><li value="4546">Muhammad - سورة محمد</li>
+// <li value="4584">Al-Fath - سورة الفتح</li>
+// <li value="4613">Al-Hujuraat - سورة الحجرات</li>
+// <li value="4631">Qaaf - سورة ق</li>
+// <li value="4676">Adh-Dhaariyat - سورة الذاريات</li>
+// <li value="4736">At-Tur - سورة الطور</li>
+// <li value="4785">An-Najm - سورة النجم</li>
+// <li value="4847">Al-Qamar - سورة القمر</li>
+// <li value="4902">Ar-Rahmaan - سورة الرحمن</li>
+// <li value="4980">Al-Waaqia - سورة الواقعة</li>
+// <li value="5076">Al-Hadid - سورة الحديد</li>
+// <li value="5105">Al-Mujaadila - سورة المجادلة</li>
+// <li value="5127">Al-Hashr - سورة الحشر</li>
+// <li value="5151">Al-Mumtahana - سورة الممتحنة</li>
+// <li value="5164">As-Saff - سورة الصف</li>
+// <li value="5178">Al-Jumu'a - سورة الجمعة</li>
+// <li value="5189">Al-Munaafiqoon - سورة المنافقون</li>
+// <li value="5200">At-Taghaabun - سورة التغابن</li>
+// <li value="5218">At-Talaaq - سورة الطلاق</li>
+// <li value="5230">At-Tahrim - سورة التحريم</li>
+// <li value="5242">Al-Mulk - سورة الملك</li>
+// <li value="5272">Al-Qalam - سورة القلم</li>
+// <li value="5324">Al-Haaqqa - سورة الحاقة</li>
+// <li value="5376">Al-Ma'aarij - سورة المعارج</li>
+// <li value="5420">Nooh - سورة نوح</li>
+// <li value="5448">Al-Jinn - سورة الجن</li>
+// <li value="5476">Al-Muzzammil - سورة المزمل</li>
+// <li value="5496">Al-Muddaththir - سورة المدثر</li>
+// <li value="5552">Al-Qiyaama - سورة القيامة</li>
+// <li value="5592">Al-Insaan - سورة الانسان</li>
+// <li value="5623">Al-Mursalaat - سورة المرسلات</li>
+// <li value="5673">An-Naba - سورة النبأ</li>
+// <li value="5713">An-Naazi'aat - سورة النازعات</li>
+// <li value="5759">Abasa - سورة عبس</li>
+// <li value="5801">At-Takwir - سورة التكوير</li>
+// <li value="5830">Al-Infitaar - سورة الإنفطار</li>
+// <li value="5849">Al-Mutaffifin - سورة المطففين</li>
+// <li value="5885">Al-Inshiqaaq - سورة الإنشقاق</li>
+// <li value="5910">Al-Burooj - سورة البروج</li>
+// <li value="5932">At-Taariq - سورة الطارق</li>
+// <li value="5949">Al-A'laa - سورة الأعلى</li>
+// <li value="5968">Al-Ghaashiya - سورة الغاشية</li>
+// <li value="5994">Al-Fajr - سورة الفجر</li>
+// <li value="6024">Al-Balad - سورة البلد</li>
+// <li value="6044">Ash-Shams - سورة الشمس</li>
+// <li value="6059">Al-Lail - سورة الليل</li>
+// <li value="6080">Ad-Dhuhaa -  سورة الضحى</li>
+// <li value="6091">Ash-Sharh - سورة الشرح</li>
+// <li value="6099">At-Tin - سورة التين</li>
+// <li value="6107">Al-Alaq - سورة العلق</li>
+// <li value="6126">Al-Qadr - سورة القدر</li>
+// <li value="6131">Al-Bayyina - سورة البينة</li>
+// <li value="6139">Az-Zalzala - سورة الزلزلة</li>
+// <li value="6147">Al-Aadiyaat - سورة العاديات</li>
+// <li value="6158">Al-Qaari'a - سورة القارعة</li>
+// <li value="6169">At-Takaathur - سورة التكاثر</li>
+// <li value="6177">Al-Asr - سورة العصر</li>
+// <li value="6180">Al-Humaza - سورة الهمزة</li>
+// <li value="6189">Al-Fil - سورة الفيل</li>
+// <li value="6194">Quraish - سورة قريش</li>
+// <li value="6198">Al-Maa'un - سورة الماعون</li>
+// <li value="6205">Al-Kawthar - سورة الكوثر</li>
+// <li value="6208">Al-Kaafiroon - سورة الكافرون</li>
+// <li value="6214">An-Nasr - سورة النصر</li>
+// <li value="6217">Al-Masad - سورة المسد</li>
+// <li value="6222">Al-Ikhlaas - سورة الإخلاص</li>
+// <li value="6226">Al-Falaq - سورة الفلق</li>
+// <li value="6231">An-Naas - سورة الناس</li>');
+
+// $('.dropdown3-menu').empty();
+// $(".dropdown3-menu").html('<li value="' + surahs[0].ayahs[surahs[0].ayahs.length - 1].number + '">' + surahs[0].englishName + ' - ' + surahs[0].name + '</li><li value="' + surahs[1].ayahs[surahs[1].ayahs.length - 1].number + '">' + surahs[1].englishName + ' - ' + surahs[1].name + '</li>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//                 <li value="790">Al-An'aam - سورة الأنعا</li><li value="955">Al-A'raaf - سورة الأعراف</li><li value="1161">Al-Anfaal - سورة الأنفال</li><li value="1236">At-Tawba - سورة التوبة</li><li value="1365">Yunus - سورة يونس</li><li value="1474">Hud - سورة هود</li><li value="1597">Yusuf - سورة يوسف</li><li value="1708">Ar-Ra'd - سورة الرعد</li><li value="1751">Ibrahim - سورة ابراهيم</li><li value="1803">Al-Hijr - سورة الحج</li><li value="1902">An-Nahl - سورة النحل</li><li value="2030">Al-Israa - سورة الإسراء</li><li value="2141">Al-Kahf - سورة الكهف</li><li value="2251">Maryam - سورة مريم</li><li value="2349">Taa-Haa - سورة طه</li><li value="2484">Al-Anbiyaa - سورة الأنبياء</li><li value="2596">Al-Hajj - سورة الحج</li><li value="2674">Al-Muminoon - سورة المؤمنون</li><li value="2792">An-Noor - سورة النور</li><li value="2856">Al-Furqaan - سورة الفرقان</li><li value="2933">Ash-Shu'araa - سورة الشعراء</li><li value="3160">An-Naml - سورة النمل</li><li value="3253">Al-Qasas - سورة القصص</li><li value="3341">Al-Ankaboot - سورة العنكبوت</li><li value="3410">Ar-Room - سورة الروم</li><li value="3470">Luqman - سورة لقمان</li><li value="3504">As-Sajda - سورة السجدة</li><li value="3534">Al-Ahzaab - سورة الأحزاب</li><li value="3607">Saba - سورة سَبَأ</li><li value="3661">Faatir - سورة فاطر</li><li value="3706">Yaseen - سورة يس</li><li value="3789">As-Saaffaat - سورة الصافات</li><li value="3971">Saad - سورة ص</li><li value="4059">Az-Zumar - سورة الزمر</li><li value="4134">Ghafir - سورة غافر</li><li value="4219">Fussilat - سورة فصلت</li><li value="4273">Ash-Shura - سورة الشورى</li><li value="4326">Az-Zukhruf - سورة الزخرف</li><li value="4415">Ad-Dukhaan - سورة الدخان</li><li value="4474">Al-Jaathiya - سورة الجاثية</li><li value="4511">Al-Ahqaf - سورة الأحقاف</li><li value="4546">Muhammad - سورة محمد</li>
+// <li value="4584">Al-Fath - سورة الفتح</li>
+// <li value="4613">Al-Hujuraat - سورة الحجرات</li>
+// <li value="4631">Qaaf - سورة ق</li>
+// <li value="4676">Adh-Dhaariyat - سورة الذاريات</li>
+// <li value="4736">At-Tur - سورة الطور</li>
+// <li value="4785">An-Najm - سورة النجم</li>
+// <li value="4847">Al-Qamar - سورة القمر</li>
+// <li value="4902">Ar-Rahmaan - سورة الرحمن</li>
+// <li value="4980">Al-Waaqia - سورة الواقعة</li>
+// <li value="5076">Al-Hadid - سورة الحديد</li>
+// <li value="5105">Al-Mujaadila - سورة المجادلة</li>
+// <li value="5127">Al-Hashr - سورة الحشر</li>
+// <li value="5151">Al-Mumtahana - سورة الممتحنة</li>
+// <li value="5164">As-Saff - سورة الصف</li>
+// <li value="5178">Al-Jumu'a - سورة الجمعة</li>
+// <li value="5189">Al-Munaafiqoon - سورة المنافقون</li>
+// <li value="5200">At-Taghaabun - سورة التغابن</li>
+// <li value="5218">At-Talaaq - سورة الطلاق</li>
+// <li value="5230">At-Tahrim - سورة التحريم</li>
+// <li value="5242">Al-Mulk - سورة الملك</li>
+// <li value="5272">Al-Qalam - سورة القلم</li>
+// <li value="5324">Al-Haaqqa - سورة الحاقة</li>
+// <li value="5376">Al-Ma'aarij - سورة المعارج</li>
+// <li value="5420">Nooh - سورة نوح</li>
+// <li value="5448">Al-Jinn - سورة الجن</li>
+// <li value="5476">Al-Muzzammil - سورة المزمل</li>
+// <li value="5496">Al-Muddaththir - سورة المدثر</li>
+// <li value="5552">Al-Qiyaama - سورة القيامة</li>
+// <li value="5592">Al-Insaan - سورة الانسان</li>
+// <li value="5623">Al-Mursalaat - سورة المرسلات</li>
+// <li value="5673">An-Naba - سورة النبأ</li>
+// <li value="5713">An-Naazi'aat - سورة النازعات</li>
+// <li value="5759">Abasa - سورة عبس</li>
+// <li value="5801">At-Takwir - سورة التكوير</li>
+// <li value="5830">Al-Infitaar - سورة الإنفطار</li>
+// <li value="5849">Al-Mutaffifin - سورة المطففين</li>
+// <li value="5885">Al-Inshiqaaq - سورة الإنشقاق</li>
+// <li value="5910">Al-Burooj - سورة البروج</li>
+// <li value="5932">At-Taariq - سورة الطارق</li>
+// <li value="5949">Al-A'laa - سورة الأعلى</li>
+// <li value="5968">Al-Ghaashiya - سورة الغاشية</li>
+// <li value="5994">Al-Fajr - سورة الفجر</li>
+// <li value="6024">Al-Balad - سورة البلد</li>
+// <li value="6044">Ash-Shams - سورة الشمس</li>
+// <li value="6059">Al-Lail - سورة الليل</li>
+// <li value="6080">Ad-Dhuhaa -  سورة الضحى</li>
+// <li value="6091">Ash-Sharh - سورة الشرح</li>
+// <li value="6099">At-Tin - سورة التين</li>
+// <li value="6107">Al-Alaq - سورة العلق</li>
+// <li value="6126">Al-Qadr - سورة القدر</li>
+// <li value="6131">Al-Bayyina - سورة البينة</li>
+// <li value="6139">Az-Zalzala - سورة الزلزلة</li>
+// <li value="6147">Al-Aadiyaat - سورة العاديات</li>
+// <li value="6158">Al-Qaari'a - سورة القارعة</li>
+// <li value="6169">At-Takaathur - سورة التكاثر</li>
+// <li value="6177">Al-Asr - سورة العصر</li>
+// <li value="6180">Al-Humaza - سورة الهمزة</li>
+// <li value="6189">Al-Fil - سورة الفيل</li>
+// <li value="6194">Quraish - سورة قريش</li>
+// <li value="6198">Al-Maa'un - سورة الماعون</li>
+// <li value="6205">Al-Kawthar - سورة الكوثر</li>
+// <li value="6208">Al-Kaafiroon - سورة الكافرون</li>
+// <li value="6214">An-Nasr - سورة النصر</li>
+// <li value="6217">Al-Masad - سورة المسد</li>
+// <li value="6222">Al-Ikhlaas - سورة الإخلاص</li>
+// <li value="6226">Al-Falaq - سورة الفلق</li>
+// <li value="6231">An-Naas - سورة الناس</li>');
+
+
+
+
+
+
+
+function filterFunction() {
+console.log('running');
+// var input, filter, ul, li, a, i;
+var input = $("#myInput");
+// var filter = $("#myInput").attr('value');
+// var filter = $("myInput").value.toUpperCase();
+var filter = $("#myInput").attr('value').toUpperCase();
+// var className = "$('." + $("#myInput").parents('ul').attr('class') + "');";
+// console.log(className);
+var ul = "$('." + $("#myInput").parents('ul').attr('class') + "');";;
+console.log(ul);
+// var $li = '$(".' + $("#myInput").parents('ul').attr('class') + ' li");';
+// console.log($li);
+var li = '$(".' + $("#myInput").parents('ul').attr('class') + ' li");';
+console.log(li);
+
+
+for (i = 0; i < li.length; i++) {
+  console.log(li);
+  console.log(li.length);
+  console.log(li[i]);
+  console.log()
+  txtValue = li[i].textContent || li[i].innerText;
+  console.log(li[i].textContent);
+  console.log(li[i].innerText);
+  console.log(txtValue.indexOf(filter));
+  console.log(li[i]);
+  console.log(filter);
+  console.log($("#myInput").attr('value'));
+  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+
+    li[i].style.display = "";
+  } else {
+    li[i].style.display = "none";
+  }
+};

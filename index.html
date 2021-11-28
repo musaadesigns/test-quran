@@ -1,0 +1,249 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test My Quran</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+  </head>
+  <body>
+    <div class="overlay"></div>
+
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <a id="menu-trigger"><i class="icofont-navigation-menu icofont-2x"></i></a>
+          <li class="menu-text">Test My Quran</li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+        </ul>
+      </div>
+    </div>
+
+    <div id="slide-menu">
+      <a id="menu-close-trigger"><i class="icofont-close icofont-2x"></i></a>
+      <ul>
+        <li><a href="">menu 1</a></li>
+        <li><a href="">menu 2</a></li>
+        <li><a href="">menu 3</a></li>
+      </ul>
+
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your share button code -->
+      <div class="fb-share-button js-share-facebook-link"
+        data-href="https://www.testmyquran.com"
+        data-layout="button_count">
+      </div>
+
+
+      <a class="twitter-share-button js-share-twitter-link"
+  href="https://twitter.com/intent/tweet?text=Hello%20world" target="_blank">
+Tweet</a>
+
+
+
+    </div>
+
+
+    <div class="verse-container container grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="cell large-12">
+          <div class="arabic-verse-container">
+            <span class="sajda-note">Note: this is a sajda ayah!</span>
+            <h1 class="verse">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h1>
+          </div>
+          <div class="chapter-verse-container">
+            <div class="chapter-verse-1">
+              <p class="surah">Al-Faatiha</p>
+              <p class="surah-ayah">1:1</p>
+              <div class="audio-wrapper">
+                <audio class="verse-voice" id="player" src="https://cdn.islamic.network/quran/audio/64/ar.alafasy/1.mp3"></audio>
+                <div class="togglePlay" onClick="togglePlay()">
+                  <!-- <i class="fas fa-play"></i> -->
+                  <i id="togglePlayIcon" class="icofont-play-alt-1 icofont-2x"></i>
+                </div>
+                <div class="audio-container">
+                  <div class="audio-progress" id="progress"></div>
+                </div>
+              </div>
+            </div>
+            <div class="chapter-verse-2">
+              <a class="more-info">More Info about this Ayah</a>
+            </div>
+
+          </div>
+          <p class="verse-english">In the name of Allah, the Entirely Merciful, the Especially Merciful.</p>
+          <p class="translation-version">Sahih International</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="more-info-container">
+      <a class="close"><i class="icofont-close icofont-2x"></i></a>
+      <div class="more-info-surah-info">
+        <h2>Surah Info</h2>
+        <p class="more-info-surah-name">Surah name: Al-Faatiha  -  سُورَةُ ٱلْفَاتِحَة</p>
+        <p class="more-info-surah-name-translation">Surah name translation: The Opening</p>
+        <p class="more-info-surah-number">Surah number: 1</p>
+        <p class="more-info-number-of-ayahs">Number of ayahs in surah: 7</p>
+        <p class="more-info-revelation-type">Revelation type: Meccan</p>
+      </div>
+      <div class="more-info-verse-info">
+        <h2>Ayah Info</h2>
+        <div class="more-info-verse-container">
+          <h4 class="more-info-verse">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h4>
+          <p class="more-info-verse-english">In the name of Allah, the Entirely Merciful, the Especially Merciful.</p>
+        </div>
+        <p class="more-info-ayah-number">Ayah number: 1</p>
+        <p class="more-info-juz">Juz: 1</p>
+        <p class="more-info-page">Page: 1</p>
+        <p class="more-info-manzil">Manzil: 1</p>
+        <p class="more-info-hizb">Hizb: 1</p>
+        <p class="more-info-ruku">Ruku: 1</p>
+        <div class="more-info-sajda-container">
+          <p class="more-info-sajda">This is not a sajda ayah</p>
+        </div>
+      </div>
+
+    </div>
+
+
+      <div id="tester" class="grid-y">
+
+        <div id="collapse-select" class="open" >
+          <div class="collapse-inner-container">
+            <!-- <i class="icofont-arrow-down icofont-1x" style="margin-right: 5px;"></i>
+            <i class="icofont-arrow-up icofont-1x" style="margin-right: 5px;"></i> -->
+            <p class="collapse-p">Click to collapse</p>
+            <!-- <i class="icofont-arrow-down icofont-1x" style="margin-left: 5px;"></i>
+            <i class="icofont-arrow-up icofont-1x" style="margin-left: 5px;"></i> -->
+          </div>
+
+        </div>
+
+        <div class="select-container">
+
+          <div class="dropdown-container dropdown-container1">
+            <div id="type" class="dropdown1">
+             <!-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> -->
+             <div class="select">
+               <span>Juz or Surah</span>
+               <i class="fa fa-chevron-left"></i>
+             </div>
+             <input class="hidden-value" type="hidden" name="type">
+
+           </div>
+           <ul class="dropdown1-menu">
+             <li id="juz">Juz</li>
+             <li id="surahs">Surahs</li>
+           </ul>
+          </div>
+           <!-- <div id="type" class="dropdown1">
+             <div class="select">
+               <span>Juz or Surah</span>
+               <i class="fa fa-chevron-left"></i>
+             </div>
+             <input type="hidden" name="type">
+             <ul class="dropdown1-menu">
+               <li id="juz">Juz</li>
+               <li id="surahs">Surahs</li>
+             </ul>
+           </div>
+
+
+           <div id="min" class="dropdown2">
+             <div class="select">
+               <span>From</span>
+               <i class="fa fa-chevron-left"></i>
+             </div>
+             <input type="hidden" name="min" value="1">
+             <ul class="dropdown2-menu">
+
+             </ul>
+           </div> -->
+
+
+          <div class="dropdown-container dropdown-container2">
+            <div id="min" class="dropdown2">
+             <div class="select search" style="">
+               <!-- <span>From</span> -->
+               <i class="fa fa-chevron-left"></i>
+               <input class="search-input" type="text" placeholder="From.." id="myInput" value="" onkeyup="filterFunctionFrom()">
+
+             </div>
+             <input class="hidden-value" type="hidden" name="min" value="1">
+
+           </div>
+           <ul class="dropdown2-menu">
+           </ul>
+          </div>
+
+
+           <!-- <div id="max" class="dropdown3">
+             <div class="select">
+               <span>To</span>
+               <i class="fa fa-chevron-left"></i>
+             </div>
+             <input type="hidden" name="max" value="6236">
+             <ul class="dropdown3-menu">
+             </ul>
+           </div> -->
+
+           <div class="dropdown-container dropdown-container3">
+             <div id="min" class="dropdown3">
+              <div class="select search">
+                <!-- <span>To</span> -->
+                <i class="fa fa-chevron-left"></i>
+                <input class="search-input" type="text" placeholder="To.." id="myInput3" value="" onkeyup="filterFunctionTo()">
+
+              </div>
+              <input class="hidden-value" type="hidden" name="min" value="6236">
+
+            </div>
+            <ul class="dropdown3-menu">
+
+            </ul>
+           </div>
+
+        </div>
+
+        <div class="buttons-container">
+          <div class="btn-container">
+            <button id="previous" class="button" onclick="previous()">Previous Ayah</button>
+            <span>left arrow</span>
+          </div>
+          <div class="btn-container">
+            <button id="getquote" class="button" onclick="getquote()">Test Me</button>
+            <span>space bar</span>
+          </div>
+          <div class="btn-container">
+            <button id="revealnext" class="button" onclick="revealnext()">Reveal Next Ayah</button>
+            <span>right arrow</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script> -->
+  <scriptt src="js/foundation.js"></scriptt>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/app2.js"></script>
+  </body>
+</html>

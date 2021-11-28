@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Min: <input type="text" id="min" placeholder="Min" /><br>
+    Max: <input type="text" id="max" placeholder="Max" /><br>
+    <button onclick="generateRandom()">Generate Random</button>
+    <button onclick="increment()">Increment</button>
+    <br>
+    <p>Result: <span id="result"></span></p>
+​
+    <script>
+      var generatedRandom = 0;
+      var apiUrl = 'http://sample-api/v1/#/';
+      function getRndInteger(min, max) {
+          return Math.floor(Math.random() * (max - min + 1) ) + min;
+      }
+      function generateRandom() {
+          var min = document.getElementById('min').value;
+          var max = document.getElementById('max').value;
+          // Check whether either are not a number
+          if (isNaN(parseInt(min)) || isNaN(parseInt(max))) {
+              generatedRandom = 0;
+          } else {
+              generatedRandom = getRndInteger(parseInt(min), parseInt(max))
+          }
+          console.log(generatedRandom);
+      }
+      function increment() {
+          generatedRandom = parseInt(generatedRandom) + 1;
+          updateAPI(generatedRandom);
+      }
+      function updateAPI(num) {
+          apiUrl = 'http://sample-api/v1/#/' + num;
+          console.log(apiUrl);
+      }
+
+    </script>
+</body>
+</html>
